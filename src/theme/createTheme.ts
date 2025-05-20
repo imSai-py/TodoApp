@@ -10,6 +10,7 @@ import { ColorPalette, themeConfig } from "./themeConfig";
  * Creates a custom MUI theme based on provided primary color, background color, and palette mode.
  */
 export const createCustomTheme = (
+  
   primaryColor: string,
   backgroundColor = "#232e58",
   mode: PaletteMode = "dark",
